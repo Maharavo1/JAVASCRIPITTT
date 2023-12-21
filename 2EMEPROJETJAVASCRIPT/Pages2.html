@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="corps">
+
+            <div class="en-haut">
+                <img src="user.png" alt="">
+            </div>
+
+            <div class="lesinput">
+                <input type="email"  placeholder="Email"  class="commun" id ="input" name="email">
+                <i class='bx bx-user'></i>
+            </div>
+
+            <div class="lesinput">
+                <input type="Password" placeholder="Password"  class="commun" id ="motdepasse" name="password">
+                <i class='bx bx-lock-alt'></i>
+            </div>
+
+            <div class="lesinput" id="input-field">            
+                    <button type="submit"  class="submit" id="submit" > Login</button>
+            </div>
+
+            <div class="en-bas">
+                <div class="gauche">
+                    <label>
+                        <a href="">Signup</a>
+                    </label>
+                </div>
+
+                <div class="droite">
+                    <label>
+                        <a href="">Forgot password?</a>
+                    </label>
+                </div>
+                
+            </div>
+
+          <p id="error-email" class="hidden" >Invalid Email/Password ! </p> 
+        </div>
+    </div>
+    <script src="page2.js"></script>
+</body>
+</html>

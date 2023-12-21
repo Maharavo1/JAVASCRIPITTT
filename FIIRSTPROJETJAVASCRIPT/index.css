@@ -1,0 +1,53 @@
+
+body{
+    background-color: aliceblue;
+    display: flex;
+    width: 95%;
+    height: 95%;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainSection{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    background-color: white;
+    border: 10px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    justify-content: center;
+    box-shadow: 10px 10px 10px black;
+}
+
+aside{
+    width: 180px;
+    height: 50px;
+    padding: 5px;
+}
+aside p{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size:  15px;
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+}
+#boutton{
+    width: 70px;
+    height: 70px;
+    background-color: green;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px black;
+    border-radius:  35px;
+    cursor: pointer;
+}
+
+#boutton:hover{
+    width:  80px;
+    height: 80px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 40px;
+    margin: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+/* styles.css */
+
+/* Style pour le conteneur principal */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Style pour l'entrée de texte */
+#texteAajouter {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Style pour les boutons */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* Style pour le résultat */
+#resultat {
+    margin: 10px;
+    font-weight: bold;
+}
